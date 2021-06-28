@@ -12,7 +12,9 @@ be displayed.
 <p>
 This script could be used as a tool for botnets, once a slave of computers will perform a massive request. The dns server will most likely experience
 slowness and eventually be taken down as it cannot handle the requests.
+  
   </hr>
+  
  What are the consequences of a successful DDoS attack? When a public facing website or application is unavailable, that can lead to angry customers, lost revenue and brand damage. When business critical applications become unavailable, operations and productivity grind to a halt.
  </p>
 

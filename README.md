@@ -1,4 +1,4 @@
-# HTTP-Flooding
+# ☠️ HTTP-Flooding
 Flood http/https website with fast massive requests!
 It uses threading so this tool is very fast when sending requests and also uses proxies so that your ip won't
 be displayed.

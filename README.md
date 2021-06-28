@@ -13,11 +13,22 @@ be displayed.
 > slowness and eventually be taken down as it cannot handle the requests.
 > What are the consequences of a successful DDoS attack? When a public facing website or application is unavailable, that can lead to angry customers, lost revenue > and brand damage. When business critical applications become unavailable, operations and productivity grind to a halt.
 
-
 ## Made with <img src="https://camo.githubusercontent.com/24303cd2424a9a9c092cb6f3108ae66c45d827c3bb8cac57c93c1831c058e43f/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f707974686f6e2e706e67">
 <p>
 Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.
   </p>
+  
+## Usage
+```bash
+sudo python3  http_flood.py  -h                                                                                                                               8 ⚙
+usage: http_flood.py [-h] [-d] [-t] [-p]
+
+optional arguments:
+  -h, --help       show this help message and exit
+  -d , --domain    Domain to send request
+  -t , --threads   Number of Threads
+  -p , --proxies   Proxy list location
+```
 
 ## ❗ Disclaimer
 This tool is only for educational purposes only, if you get caught doing stupid shit, it's your problem.

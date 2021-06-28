@@ -9,7 +9,7 @@ be displayed.
 > HTTP Flood is a type of Distributed Denial of Service attack in which the attacker manipulates HTTP and POST unwanted requests in order to attack a web server or > application. These attacks often use interconnected computers that have been taken over with the aid of malware such as Trojan Horses.
 
 ## DDos Attack
-> This script could be used as a tool for botnets, once a slave of computers will perform a massive request. The dns server will most likely experience
+> This script could be used as a tool for botnets, once a slave of computers will perform a massive request the dns server will most likely experience
 > slowness and eventually be taken down as it cannot handle the requests.
 > What are the consequences of a successful DDoS attack? When a public facing website or application is unavailable, that can lead to angry customers, lost revenue > and brand damage. When business critical applications become unavailable, operations and productivity grind to a halt.
 

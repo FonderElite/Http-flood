@@ -52,12 +52,24 @@ class Request(threading.Thread):
 
 if __name__ == '__main__':
     threads = []
-    for i in range(int(args.threads)):
-        thread_class = Request(args.domain,args.threads,args.proxies)
-        thread_request = threading.Thread(target=thread_class.request)
-        thread_request.daemon = True
-        threads.append(thread_request)
-    for i in range(int(args.threads)):
-        threads[i].start()
-    for i in range(int(args.threads)):
-        threads[i].join()
+    if args.threads != None:
+        for i in range(int(args.threads)):
+            thread_class = Request(args.domain,args.threads,args.proxies)
+            thread_request = threading.Thread(target=thread_class.request)
+            thread_request.daemon = True
+            threads.append(thread_request)
+        for i in range(int(args.threads)):
+            threads[i].start()
+        for i in range(int(args.threads)):
+            threads[i].join()
+    elif args.threads == None:
+        for i in range(int(50)):
+            thread_class = Request(args.domain,args.threads,args.proxies)
+            thread_request = threading.Thread(target=thread_class.request)
+            thread_request.daemon = True
+            threads.append(thread_request)
+        for i in range(int(50)):
+            threads[i].start()
+        for i in range(50):
+            threads[i].join()
+
